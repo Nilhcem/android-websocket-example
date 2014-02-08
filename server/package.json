@@ -1,0 +1,12 @@
+{
+  "id": "realtime-server",
+  "name": "realtime-server",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "express": "3.2.6",
+    "sockjs" : "0.3.8"
+  }
+}

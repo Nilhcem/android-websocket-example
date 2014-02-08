@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/sheep2">
+
+    <!-- Speech bubble (displayed when a message is received from the websocket -->
+    <ImageView
+        android:id="@+id/speech_bubble"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:visibility="gone"
+        android:src="@drawable/beeeeeh"/>
+
+    <!-- "Go to previous activity" button -->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:onClick="goBack"
+        android:text="Back to Activity 1"/>
+</RelativeLayout>
