@@ -1,7 +1,9 @@
 # Android Websocket Example
 
 A sample application that keeps a permanent WebSocket connection in an Android bound Service.
+
 When a message is received from the websocket, an event is sent using LocalBroadcastManager.
+
 It handles network configuration changes using a receiver to stop/start the websocket depending on the network state.
 
 The sheep in the current activity will start to bleat when a message is received from the websocket.
@@ -41,9 +43,10 @@ You can use the awesome [rest-client](https://github.com/wiztools/rest-client) t
 
 ![](images/restclient.png)
 
-- If the sheep bleats, that's a success (note: you can see the received message in the device logs)
+- If the sheep bleats, that's a success (you can also see the received message in the device logs)
 
-# Acknowledgements
+
+## Acknowledgements
 
 - [NodeJS Sample Server](https://github.com/MartinMoizard/Realtime-samples)
 - [Android Websocket Library](https://github.com/codebutler/android-websockets/)
