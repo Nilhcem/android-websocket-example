@@ -2,6 +2,7 @@
 
 A sample application that keeps a permanent WebSocket connection in an Android bound Service.
 When a message is received from the websocket, an event is sent using LocalBroadcastManager.
+It handles network configuration changes using a receiver to stop/start the websocket depending on the network state.
 
 The sheep in the current activity will start to bleat when a message is received from the websocket.
 
