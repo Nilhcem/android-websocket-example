@@ -32,13 +32,13 @@ http://localhost:3000/ws/
 private static final String WS_URL = "ws://SERVER_IP:3000/ws/websocket";
 ```
 
-- Compile, deploy and run the application
+- Compile, deploy and run the application:
 
 ```bash
 $ ./gradlew clean installDebug
 ```
 
-- Finally, send a POST request to ```http://SERVER_IP:3000/dispatchMessage```, the websocket will send the message to the connected clients.
+- Finally, send a POST request to ```http://SERVER_IP:3000/dispatchMessage```, the websocket will send the message to all the connected clients.
 You can use the awesome [rest-client](https://github.com/wiztools/rest-client) tool to assist you in this task.
 
 ![](images/restclient.png)
